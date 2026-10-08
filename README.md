@@ -115,3 +115,9 @@ The application follows a client-server architecture.
 │ users                        │
 │ employees                    │
 └──────────────────────────────┘
+
+## Live Demo
+
+Frontend: https://splendid-hamster-33158f.netlify.app
+
+Backend API: https://employeehub-backend-s1q4.onrender.com
