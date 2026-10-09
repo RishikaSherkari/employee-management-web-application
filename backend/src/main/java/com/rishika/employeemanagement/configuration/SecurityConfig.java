@@ -59,12 +59,14 @@ public class SecurityConfig {
 public CorsConfigurationSource corsConfigurationSource() {
     CorsConfiguration configuration = new CorsConfiguration();
 
-    configuration.setAllowedOrigins(
-       List.of(
+   
+  configuration.setAllowedOrigins(
+    List.of(
         "http://localhost:5173",
-        "https://splendid-hamster-33158f.netlify.app"
-      )
-    );
+        "https://employeehub-url.netlify.app"
+    )
+ );
+
 
     configuration.setAllowedMethods(
         List.of("GET", "POST", "PUT", "DELETE", "OPTIONS")
